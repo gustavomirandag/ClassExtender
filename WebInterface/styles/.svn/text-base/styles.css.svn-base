@@ -1,0 +1,678 @@
+/* CSS Document */
+
+
+/*----------  GENERAL CSS ----------*/
+body{
+	margin:0;
+	padding:0;
+	}
+
+#global{
+	display:block;
+	width:100%;
+	margin:0;
+	padding:0;
+	overflow-x:hidden;
+	overflow-y:auto;
+	}
+
+#container{
+	display:block;
+	width:100%;
+	margin:15% 0 0 0;
+	padding:0;
+	background-color:#d2cfc6;
+	}
+	
+#side1, #side2{
+	display:block;
+	float:left;
+	width:50%;
+	*width:49%;
+	height:242px;
+	margin:0;
+	padding:0;
+	}
+#side1{
+	background-image:url(../img/bg_side1.gif);
+	background-position:center center;
+	background-repeat:repeat-x;
+	}
+	#side1 span{
+	display:block;
+	float:right;
+	width:415px;
+	height:242px;
+	background-image:url(../img/logo.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+	}
+	#side1 span p, #side1 h1{
+	display:none;
+	}
+#side2{
+	background-image:url(../img/corner_side2.gif);
+	background-position:center left;
+	background-repeat:no-repeat;
+	background-color:#d2cfc6;
+	}
+	
+#div_form_login{
+	display:inline;
+	float:left;
+	margin:35px 0 0 36px;
+	padding:0;
+	width:217px;
+	}
+#div_form_login label{
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color:#3f3b2b;
+	font-size:13px;
+	}
+#div_form_login a{
+	display:inline;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+#div_form_login input.field{
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color:#3f3b2b;
+	font-size:13px;
+	border:1px solid #c3bfb2;
+	background-color:#FFFFFF;
+	width:215px;
+	margin:0 0 7px 0;
+	}
+#div_form_login input.bt{
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:14px;
+	background-color:#898575;
+	width:84px;
+	border:none;
+	cursor:pointer;
+	margin:45px 0 0 0;
+	}
+.btRecoverPassword{
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:14px;
+	background-color:#898575;
+	width:84px;
+	border:none;
+	cursor:pointer;
+	margin:15px 0 0 0;
+	float:left;
+	}
+.btCancelRecoverPassword{
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:14px;
+	background-color:#898575;
+	width:84px;
+	border:none;
+	cursor:pointer;
+	margin:15px 0 0 0;
+	float:right;
+	}
+#div_form_recover_login_password{
+	display:inline;
+	float:left;
+	margin:35px 0 0 36px;
+	padding:0;
+	width:217px;
+	}
+#div_form_recover_login_password label{
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color:#3f3b2b;
+	font-size:13px;
+	}
+#div_form_recover_login_password a{
+	display:inline;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+#div_form_recover_login_password input.field{
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color:#3f3b2b;
+	font-size:13px;
+	border:1px solid #c3bfb2;
+	background-color:#FFFFFF;
+	width:215px;
+	margin:0 0 7px 0;
+	}
+#div_form_recover_login_password input.bt{
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:14px;
+	background-color:#898575;
+	width:84px;
+	border:none;
+	cursor:pointer;
+	margin:45px 0 0 0;
+	}
+		
+#footer{
+	display:block;
+	float:left;
+	margin:9% 0 0 0;
+	padding:0;
+	width:100%;
+	text-align:center;
+	}
+	
+#top{
+	display:block;
+	float:left;
+	width:100%;
+	}	
+
+#menu{
+	display:block;
+	float:left;
+	width:20%;
+	background-color:#FFFFFF;
+	border-right:2px solid #a5a08d;
+	border-bottom:2px solid #a5a08d;
+	padding:0 0 5px 0;
+	/*position:fixed;*/
+	top:150px;
+	}
+	
+#content{
+	display:block;
+	float:right;
+	width:79%;
+	}
+	
+#header{
+	display:block;
+	float:left;
+	width:100%;
+	height:161px;
+	background-image:url(../img/bkg_top.gif);
+	background-position:center center;
+	background-repeat:repeat-x;
+	}
+#header span.logo{
+	display:block;
+	float:left;
+	width:246px;
+	height:161px;
+	background-image:url(../img/logo_interna.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+	margin:0 0 0 30px;
+	}
+#header span.logo h1{
+	display:none;
+	}
+	
+#header span.divisa{
+	display:block;
+	float:left;
+	width:2px;
+	height:109px;
+	background-image:url(../img/divisa.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+	margin:0 30px 0 30px;
+	}
+	
+#header span.data_login{
+	display:block;
+	float:left;
+	margin:25px 0 0 0;
+	width:25%;
+	}
+#header span.data_login span{
+	display:block;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color:#FFF;
+	}
+span.login{
+	font-size:18px;
+	font-weight:bold;
+	}
+span.name, span.matricula{
+	font-size:16px;
+	}
+	
+#header span.ico_navigation{
+	display:block;
+	float:left;
+	margin:45px 0 0 0;
+	padding:0;
+	height:27px;
+	}
+#header span.ico_navigation a{
+	margin:5px 10px 0 0;
+	}
+#header span.ico_navigation input.bt{
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:14px;
+	background-color:#5b553c;
+	width:64px;
+	border:none;
+	cursor:pointer;
+	font-weight:bold;
+	margin:0;
+	}
+	
+#header span.ico_navigation_signout{
+	display:block;
+	float:right;
+	margin:45px 20px 0 0;
+	padding:0;
+	height:27px;
+	}
+	
+div.content_top{
+	display:block;
+	float:left;
+	padding:15px 0 10px 0;
+	margin:0;
+	background-image:url(../img/bkg_paper.gif);
+	background-position:bottom left;
+	background-repeat:no-repeat;
+	width:77%;
+	border-bottom:1px solid #fff;
+	}
+div.content_top span{
+	display:block;
+	width:100%;
+	padding:0;
+	margin:0 0 0 95px;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color:#5b553c;
+	}
+span.classtype{
+	font-size:18px;
+	}
+span.hour_begin{
+	font-weight:bold;
+	}
+span.hour_begin, span.hour_finish, span.teacher{
+	font-size:14px;
+	}
+
+
+	
+#content{
+	display:block;
+	float:right;
+	background-color:#FFFFFF;
+	border-left:2px solid #a5a08d;
+	border-bottom:2px solid #a5a08d;
+	padding:0 0 10px 0;
+	margin:0 0 15px 0;
+	}
+#main_content{
+	display:block;
+	float:left;
+	width:98%;
+	padding:0;
+	margin:5px 0 0 10px;
+	}
+
+#menu span.title_menu{
+	display:block;
+	width:100%;
+	text-align:right;
+	background-color:#a5a08d;
+	height:39px;
+	background-image:url(../img/bullet.gif);
+	background-position:center right;
+	background-repeat:no-repeat;
+	margin:0 0 7px 0;
+	}
+	
+#content span.title_content{
+	display:block;
+	width:100%;
+	text-align:left;
+	background-color:#a5a08d;
+	height:39px;
+	background-image:url(../img/bullet.gif);
+	background-position:center left;
+	background-repeat:no-repeat;
+	margin:0 0 7px 0;
+	}
+	
+#content span.title_content2{
+	display:block;
+	width:100%;
+	text-align:left;
+	background-color:#b6b09e;
+	height:30px;
+	background-image:url(../img/bullet.gif);
+	background-position:center left;
+	background-repeat:no-repeat;
+	margin:5px 0 7px 0;
+	}
+	
+#content span.title_content2 h4{
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:15px;
+	font-weight:bold;
+	margin: 0;
+	padding:7px 0 0 35px;
+	}
+
+#menu span.title_menu h3, #content span.title_content h3{
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:18px;
+	font-weight:bold;
+	margin:0;
+	}
+#menu span.title_menu h3{
+	padding:7px 35px 0 0;
+	}
+#content span.title_content h3{
+	padding:7px 0 0 35px;
+	}
+	
+#menu fieldset{
+	display:block;
+	margin:0 5px 5px 5px;
+	padding:5px;
+	border:1px solid #a5a08d;
+	background-color:#ebe9e5;
+	}
+#menu fieldset legend{
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color:#5b553c;
+	font-size:16px;
+	font-weight:bold;
+	background:none;
+	}
+	
+.list_box{
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color:#5b553c;
+	font-size:13px;
+	background-color:#fff;
+	border:1px solid #a5a08d;
+	width:100%;
+	height:250px;	
+	}
+	
+.list_box_teachers{
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color:#5b553c;
+	font-size:13px;
+	background-color:#fff;
+	border:1px solid #a5a08d;
+	width:100%;
+	height:80px;	
+	}
+
+.list_box_students{
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color:#5b553c;
+	font-size:13px;
+	background-color:#fff;
+	border:1px solid #a5a08d;
+	width:100%;
+	height:500px;	
+	}
+	
+.bt{
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:14px;
+	background-color:#898575;
+	width:84px;
+	border:none;
+	cursor:pointer;
+	margin: 5px 0 0 0;
+	}
+	
+input[type="submit"]:hover{
+	background:Highlight;
+	}
+	
+.btInline{
+	display:inline;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color:#FFF;
+	float:left;
+	font-size:14px;
+	background-color:#898575;
+	width:84px;
+	border:none;
+	cursor:pointer;
+	margin: 5px 5px 5px 0;
+	}
+	
+.btCancel{
+	display:inline;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:14px;
+	float:right;
+	background-color:#9a9686;
+	width:84px;
+	border:none;
+	cursor:pointer;
+	margin: 5px 0 5px 0;
+	}
+	
+.textBoxDefault input
+{
+	display:block;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color:#3f3b2b;
+	font-size:13px;
+	border:1px solid #c3bfb2;
+	background-color:#FFFFFF;
+	width:500px;
+	
+	margin:0 0 7px 0;
+	}
+	
+.labelDefault
+{
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color:#3f3b2b;
+	font-size:13px;
+	background-color:#FFFFFF;
+	width:215px;
+	margin:0 0 7px 0;
+	}
+
+.divInternalContent{
+	display:block;
+	float:left;
+	width:100%;
+	}
+
+/*----------  END OF GENERAL CSS ----------*/
+
+
+
+/*---------- Topic Menu --------------*/
+.aux_menu{
+            display:inline;
+            float:right;
+            padding:7px 0 7px 0;
+            margin:0;
+            width:14%;
+            border-left:1px solid #ee7f00;
+            border-bottom:1px solid #ee7f00;
+            border-top:1px solid #ee7f00;
+            }
+.aux_menu ul{
+            display:block;
+            float:left;
+            padding:0 15px 0 0;
+            margin:0 0 0 15px;
+            list-style:none;
+            /*border-right:1px dashed #ee7f00;*/
+            }
+.aux_menu ul li{
+            padding:0;
+            margin:0;
+            }
+.aux_menu ul li a{
+            display:block;
+            float:left;
+            font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+            color:#666666;
+            padding:0 3px 0 3px;
+            font-size:12px;
+            text-decoration:none
+            }
+.aux_menu ul li a:hover{
+            background-color:#ee7f00;
+            color:#fff;
+            }
+.aux_menu h4{
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color:#3f3b2b;
+	font-size:13px;
+	font-weight:bold;
+	margin: 0;
+	padding: 2px 0 6px 20px;
+	}
+	li{   
+		list-style:none;   
+	}  
+
+/*------------------------------------*/
+
+
+
+/*---------- FORUM CSS ----------*/
+/*---content_forum----*/
+
+#post_forum{
+	display:inline;
+	float:left;
+	width:100%;
+	margin:0 0 10px 0;
+	padding:0;
+	background-color:#CC0000;
+	}
+#post_forum span.title_teacher, #post_forum span.title_teacher_deleted_student_msg, #post_forum span.title_student, #post_forum span.title_note{
+	display:inline;
+	float:left;
+	width:100%;
+	margin:0;
+	padding:6px 0 0 0;
+	height:72px;
+	background-color:#d4d1c5;
+	border:1px solid #bdb698;
+	background-position:center left;
+	background-repeat:no-repeat;
+	}
+#post_forum span.title_teacher{
+	background-image:url(../img/ico_teacher.gif);
+	}
+#post_forum span.title_teacher_deleted_student_msg
+{
+	background-color: #ff4500;
+	background-image: url(../img/ico_classer.gif);	
+}
+#post_forum span.title_student{
+	background-image:url(../img/ico_classer.gif);
+	}
+#post_forum span.title_note{
+	background-image:url(../img/ico_note.gif);
+	}
+	
+.post_forum_content_item{
+	display:block;
+	float:left;
+	width:100%;
+	margin:5px 0 5px 7px;
+	padding:0;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#4a4025;
+	}
+
+.post_forum_general{
+	display:block;
+	float:left;
+	width:100%;
+	margin:0 0 0 86px;
+	padding:0;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#4a4025;
+	}
+	
+.post_forum_body{
+	display:block;
+	float:left;
+	width:100%-5px;
+	margin:0 5px 0 5px;
+	padding:0;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:normal;
+	color:#4a4025;
+	}
+	
+#post_forum h2{
+	font-size:14px;
+	font-weight:bold;
+	}
+	
+#post_forum span.box_forum{
+	display:block;
+	float:left;
+	width:100%;
+	margin:0;
+	padding:10px 0 0 0;
+	background-color:#eae9e5;
+	border-top:1px solid #FFF;
+	border-right:1px solid #ceccc3;
+	border-left:1px solid #ceccc3;
+	border-bottom:1px solid #ceccc3;
+	}
+
+#post_forum span.button_forum{
+	display:block;
+	float:left;
+	width:100%;
+	margin:10px 0 0 0;
+	padding:0;
+	}
+
+#post_forum span.button_forum .bt_forum_new, #post_forum span.button_forum .bt_forum_insert, #post_forum span.button_forum .bt_forum_update, #post_forum span.button_forum .bt_forum_edit{
+	display:inline;
+	float:left;
+	margin:0 0 5px 5px;
+	padding:0;
+	}
+#post_forum span.button_forum .bt_forum_delete, #post_forum span.button_forum .bt_forum_cancel{
+	display:inline;
+	float:right;
+	margin:0 5px 5px 0;
+	padding:0;
+	}
+.startHere
+{
+	display:inline;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color:#3f3b2b;
+	font-size:11px;
+	margin: 0 0 10px 0;
+}
+/*---end_content_forum----*/
+/*-------- End of Forum CSS --------*/
+
+/*------------ Administrator ------------*/
+.default_table
+{
+	display:inline;
+	margin: 15px 0 10px 0;
+}
+/*-------- End of Administrator ---------*/

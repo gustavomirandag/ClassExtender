@@ -1,0 +1,99 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="top.Master.cs" Inherits="WebInterface.top" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=7;" />
+    <!-- Transitions effect <META http-equiv="Page-Exit" content="blendTrans(Duration=0.5)">  --?
+    <!-- Really good effect <meta http-equiv="Page-Exit" content="progid:DXImageTransform.Microsoft.Fade(duration=.5)" />-->
+    <!-- The same as AJAX <meta http-equiv="Page-Exit" content="Alpha(opacity=100)"/>-->
+    <title>CE :: Class Extender</title>
+    <link href="styles/styles.css" rel="stylesheet" type="text/css"> 
+    
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-1854789-8']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+        var ga = document.createElement('script'); ga.type =
+        'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+        'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+       
+</head>
+<body>
+    <form id="form_global" runat="server">
+    
+        <asp:ScriptManager ID="scriptManager" runat="server" AsyncPostBackTimeout="0" />
+    
+	    <div id="global">
+		    <div id="top">
+			    <div id="header">
+				    <span class="logo">
+				    <h1>Class Extender</h1>
+				    </span>
+    				
+				    <span class="divisa">
+				    </span>
+    				
+				    <span class="data_login">
+					    <span class="login">User Logged</span>
+					    <span id="spanName" class="name" runat="server">Name: <strong id="strongName" runat="server">XPTO</strong></span>
+					    <span id="spanId" class="matricula" runat="server">ID: <strong id="strongId" runat="server">88888888</strong></span>
+				    </span>
+    				
+				    <span class="divisa">
+				    </span>
+    				
+				    <span class="ico_navigation">
+				        <a id="aHome" style="text-decoration:none" href="javascript:__doPostBack('home', '')" title="Home" runat="server">
+				            <img src="img/ico_home.gif" border="0" alt="Home" title="Home" id="IMG1">
+				        </a>
+    				    
+				        <a id="aAccount" style="text-decoration:none" href="javascript:__doPostBack('myAccount', '')" title="Edit Profile / My Account" runat="server">
+				            <img src="img/ico_profile.gif" border="0" alt="Edit Profile / My Account" title="Edit Profile / My Account" id="Img2">
+                        </a>
+                        
+                        <a href="#" style="text-decoration:none" title="Here, help will be avaiable!">
+                            <img src="img/ico_help.gif" border="0" alt="help_icon" title="Here, help will be avaiable!">&nbsp;
+                        </a>
+                    </span>
+                    
+                    <span class="ico_navigation_signout">
+                        <asp:Button ID="btnSignOut" CssClass="bt" runat="server" Text="Sign out" OnClick="btnSignOut_Click" />
+                    </span>
+                </div>
+			
+			    <div id="content_top" class="content_top" runat="server">
+				    <span id="spanCourse" class="classtype" runat="server">INF1347 - Apresentação das Formas Geométricas</span>
+				    <span id="spanStartTime" class="hour_begin" runat="server">Started at 17:00 hours - 04/08/2008</span>
+				    <span id="spanForecastEnd" class="hour_finish" runat="server">Forecast of End: <strong id="strongForecastEnd" runat="server">19:00 hours</strong></span>
+				    <span id="spanTeacher" class="teacher" runat="server">Responsible Teacher: <strong id="strongTeacher" runat="server">Carlos de Andrade</strong></span>
+			    </div>
+			    
+                <div id="aux_menu" class="aux_menu" runat="server">
+                    <h4>Topic Options</h4>
+                    <ul>
+                        <li><a href="javascript:__doPostBack('leaveTopic', '')">&raquo; Leave</a></li>
+                        <li id="liFinishTopic" runat="server"><a href="javascript:__doPostBack('finishTopic', '')">&raquo; Finish Topic</a>
+                        <!--<li><a href="#">&raquo; Activate</a></li>-->
+                    </li>
+                    </ul>
+                </div>
+                                   
+		    </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+	    </div>
+    </form>
+</body>
+</html>

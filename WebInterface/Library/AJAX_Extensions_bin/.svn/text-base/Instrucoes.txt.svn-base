@@ -1,0 +1,6 @@
+Necessário colocar os arquivos:
+ - System.Web.Extensions.Design.dll
+ - System.Web.Extensions.dll
+
+No diretório BIN da aplicação para a mesma rodas independente da versão do IIS
+e se o mesmo possui o pacote do AJAX .NET instalado na máquina.

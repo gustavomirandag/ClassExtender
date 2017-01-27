@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Segoe UI" Size="9" />
+  <Class Name="Interface_Web.admin" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>admin.aspx.cs</FileName>
+      <HashCode>MgBiQAAAARAAQEGQCCAIAgIgIAUAAAACRAIBKAZCoAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebInterface.fckeditor.editor.dialog.fck_ink" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>fckeditor\editor\dialog\fck_ink.aspx.cs</FileName>
+      <HashCode>IAAAAAAAAAAAAAAAAAAABIAAAQAAAAAAAAAAAAIAAEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebInterface.home" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>home.aspx.cs</FileName>
+      <HashCode>IgQFBAEAJCAAAICAEQIEQAACBAAYiBkABBAAgQJEEDA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebInterface.loadInk" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>loadInk.aspx.cs</FileName>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebInterface.login" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>login.aspx.cs</FileName>
+      <HashCode>AAgAAAAAAAAAAAAAAAgCAAAAAgAAAAAAAAAAIAIAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebInterface.saveInk" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>saveInk.aspx.cs</FileName>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAQAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebInterface.top" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>top.Master.cs</FileName>
+      <HashCode>AAYAAAAAIIIAgAAYAAAGAAABAgAQAIAAAAAQIQIAQMA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebInterface._class" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>topic.aspx.cs</FileName>
+      <HashCode>IBQAAAAAACAQAAAIICAAASACgAAACBAABAIABAIGAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebInterface.Properties.Settings" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Settings.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>
